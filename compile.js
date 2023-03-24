@@ -5,6 +5,7 @@ const solc = require('solc');
 const lotteryPath = path.resolve(__dirname, 'contracts', 'Lottery.sol');
 const source = fs.readFileSync(lotteryPath, 'utf8');
  
+//test3
 const input = {
   language: 'Solidity',
   sources: {
